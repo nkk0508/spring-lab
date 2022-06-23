@@ -1,4 +1,4 @@
-package com.example.springlab.presentation.request;
+package com.example.springlab.presentation.response;
 
 import lombok.Getter;
 import lombok.ToString;
@@ -6,12 +6,12 @@ import lombok.ToString;
 @Getter
 @ToString
 public class ResultSet {
-    SuperRequest resultSet;
+    SuperResponse resultSet;
 
     public ResultSet() {
     }
 
-    public ResultSet(SuperRequest test) {
+    public ResultSet(SuperResponse test) {
         this.resultSet = test;
     }
 }
