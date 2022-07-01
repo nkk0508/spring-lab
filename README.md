@@ -23,3 +23,6 @@ Accept: text/csv
 Authorization: Basic user password
 ```
 
+## H2 DB Web
+[http://localhost:8881/h2-console](http://localhost:8881/h2-console)
+
